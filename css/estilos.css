@@ -1,0 +1,122 @@
+:root{
+    --blanco: #ffffff;
+    --oscuro: #212121;
+    --primario: #ddd5d5;
+    --secundario: #D9D9D9;
+    --terciario: #E3E3E3;
+    --azulito: #90c5fa;
+    --rojo: #f31d1d;
+    --verde: #24f046;
+
+    
+
+    --tipo-letra: 'Fredoka', sans-serif;
+}
+h1{
+    font-size: 3.8rem;
+    text-align: center;
+}
+h2{
+    font-size: 2.8rem;
+    text-align: center;
+}
+
+h3{
+    font-size: 1.8rem;
+    text-align: center;
+}
+
+
+
+html{
+    font-size: 62.5%;
+    box-sizing: border-box; /*Box Model*/
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body{
+    font-size: 16px; /* 1rem */
+    font-family: var(--tipo-letra);
+}
+.producto{
+    display: flex;
+    text-align: left;
+}
+
+.enlace{
+    display: flex;
+    justify-content: center;
+    background-color: var(--primario);
+    height: 10rem;
+}
+
+.enlace p{
+    padding: 5rem;
+}
+
+.enlace .producto{
+    padding-left: 7rem;
+}
+
+.enlace .separar{
+    padding: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.imagen{
+    display: flex;
+    padding-right: 12rem;
+}
+.productos{
+    display: flex; 
+   
+    
+    
+}
+.productos .borde{
+    border-style:solid;
+    border-width: 1px;
+}
+.precio{
+    display: flex;
+    padding-right: 8rem;
+    justify-content: center;
+    align-items: center;
+}
+.costo-envio{
+    display: flex;
+    padding-right: 10rem;
+    justify-content: center;
+    align-items: center;
+}
+.cantidad{
+    display: flex;
+    align-items: center;
+    justify-content: space;
+    padding-right: 7rem;
+    padding-top:1rem;
+}
+.cantidad p .btn{
+display: flex;
+}
+
+.total{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.label input{
+    width: 2rem;
+    height: 2rem;
+}
+
+.btn{
+    cursor: pointer;
+}
